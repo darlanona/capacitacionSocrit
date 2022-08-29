@@ -42,3 +42,5 @@ Cuarto intento: ventilador rama desarrollo
 probando stage 
 
 prueba stage drop
+
+Texto en main para probar stage drop
