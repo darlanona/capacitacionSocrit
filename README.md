@@ -26,8 +26,3 @@ curso en instalaciones de MTE 2022
   "age": 25
 }
 ``` 
-
-| Syntax | MAIN x dona |
-| ----------- | ----------- |
-| Header | Title |
-| Paragraph | Text | 
