@@ -27,4 +27,3 @@ curso en instalaciones de MTE 2022
 }
 ``` 
 UN comentario de ambiente desarrollo
-UN comentario de ambiente desarrollo
