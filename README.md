@@ -14,3 +14,7 @@ curso en instalaciones de MTE 2022
 | ----------- | ----------- |
 | Header | Title |
 | Paragraph | Text | 
+
+- [x] Write the press release
+- [ ] Update the website
+- [ ] Contact the media 
