@@ -40,3 +40,5 @@ Desarollooooooooo
 Cuarto intento: ventilador rama desarrollo
 
 probando stage 
+
+prueba stage drop
