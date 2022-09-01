@@ -10,6 +10,14 @@ export class Componente01Component implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
+    this.sumar()
   }
 
+  sumar() {
+    console.log('lol')
+    console.log("estoy sumando....")
+    console.error("este viene x console.error")
+    console.info("mi console info....")
+    console.warn("consol. warm")
+  }
 }
