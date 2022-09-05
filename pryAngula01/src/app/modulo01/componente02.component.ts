@@ -8,6 +8,8 @@ import { Component, Input, OnInit } from '@angular/core';
 export class Componente02Component implements OnInit {
 
   @Input() letras: any[] = [];
+
+  @Input() ciudades: any[] = [];
   constructor() { }
 
   ngOnInit(): void {
