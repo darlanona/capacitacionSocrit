@@ -8,11 +8,12 @@ import { Component } from '@angular/core';
 export class AppComponent {
   title = 'pryAngula01';
 
-  cities: City[];
+  cities: City[] =[];
 
   selectedCities: City[] = [];
 
   constructor() {
+    /*
       this.cities = [
           {name: 'New York', code: 'NY'},
           {name: 'Rome', code: 'RM'},
@@ -20,6 +21,7 @@ export class AppComponent {
           {name: 'Istanbul', code: 'IST'},
           {name: 'Paris', code: 'PRS'}
       ];
+      */
   }
 
   
