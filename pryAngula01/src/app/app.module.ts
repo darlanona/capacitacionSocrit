@@ -8,6 +8,10 @@ import {ButtonModule} from 'primeng/button';
 import {MultiSelectModule} from 'primeng/multiselect';
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 import { Componente02Component } from './modulo01/componente02.component';
+
+// 5sep2022
+import {DropdownModule} from 'primeng/dropdown';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -19,7 +23,8 @@ import { Componente02Component } from './modulo01/componente02.component';
     AppRoutingModule,
     ButtonModule,
     MultiSelectModule,
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
+    DropdownModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
