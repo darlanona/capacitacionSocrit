@@ -1,4 +1,4 @@
-import { Component, Input, OnInit } from '@angular/core';
+import { Component, EventEmitter, Input, OnInit, Output } from '@angular/core';
 
 @Component({
   selector: 'app-componente02',
@@ -7,15 +7,25 @@ import { Component, Input, OnInit } from '@angular/core';
 })
 export class Componente02Component implements OnInit {
 
+  
   @Input() letras: any[] = [];
 
   @Input() ciudades: any[] = [];
+
+  @Output() envioPadre = new EventEmitter<any>();
+
+
+  @Input() boton: string = "";
+  nombreBoton = "boton Emiter";
+
   constructor() { }
 
   ngOnInit(): void {
-
-   
   }
+
+   enviarPadre() : void {
+      this.envioPadre.emit("Esto envio desde padre")
+   }
 
 
 }

@@ -7,7 +7,7 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'pryAngula01';
-
+  mensajeHijo = "";
   cities: City[] =[];
 
   selectedCities: City[] = [];
@@ -24,7 +24,10 @@ export class AppComponent {
       */
   }
 
-  
+  recibeHijo(mensaje:any): void{
+    console.log(mensaje, "comentario:")
+    this.mensajeHijo = mensaje; 
+   }
   
 
 }
